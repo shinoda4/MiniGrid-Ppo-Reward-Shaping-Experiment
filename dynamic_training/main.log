@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.28)  16 DEC 2025 01:58
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.28)  16 DEC 2025 13:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -425,22 +425,39 @@ File: ../success_rate_5x5.png Graphic file (type bmp)
 
 
 [6]
+File: ../killshot_result_8x8.png Graphic file (type bmp)
+<../killshot_result_8x8.png>
+
 
 [7]
+File: ../success_rate_8x8.png Graphic file (type bmp)
+<../success_rate_8x8.png>
+File: ../verification_rnd.png Graphic file (type bmp)
+<../verification_rnd.png>
 
-[8] (./main.aux)
+
+[8]
+File: ../comparison_rnd_success_8x8.png Graphic file (type bmp)
+<../comparison_rnd_success_8x8.png>
+
+
+[9]
+
+[10]
+
+[11] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/08/05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7301 strings out of 473832
- 208475 string characters out of 5729480
- 641047 words of memory out of 5000000
- 30326 multiletter control sequences out of 15000+600000
+ 7390 strings out of 473832
+ 211606 string characters out of 5729480
+ 632047 words of memory out of 5000000
+ 30411 multiletter control sequences out of 15000+600000
  559563 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  74i,7n,92p,780b,503s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (8 pages).
+Output written on main.pdf (11 pages).
