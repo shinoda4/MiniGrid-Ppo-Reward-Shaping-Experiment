@@ -1,0 +1,22 @@
+\contentsline {section}{\numberline {1}引言 (Introduction)}{2}{}%
+\contentsline {section}{\numberline {2}相关工作 (Related Work)}{4}{}%
+\contentsline {subsection}{\numberline {2.1}稀疏奖励与内在动机}{4}{}%
+\contentsline {subsection}{\numberline {2.2}奖励塑形与势能函数}{4}{}%
+\contentsline {subsection}{\numberline {2.3}分层强化学习 (HRL)}{5}{}%
+\contentsline {section}{\numberline {3}方法论 (METHODOLOGY)}{5}{}%
+\contentsline {subsection}{\numberline {3.1}Preliminaries (预备知识)}{5}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}马尔可夫决策过程 (MDP)}{5}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}基于势能的奖励塑形 (PBRS)}{6}{}%
+\contentsline {subsection}{\numberline {3.2}简单塑形的局限性 (The Limitation of Simple Shaping)}{6}{}%
+\contentsline {subsection}{\numberline {3.3}Hierarchical Potential-Based Reward Shaping (分层势能奖励塑形)}{7}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}任务分解与阶段定义}{7}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}分层势能函数构建}{8}{}%
+\contentsline {subsubsection}{\numberline {3.3.3}机制分析}{8}{}%
+\contentsline {section}{\numberline {4}实验 (Experiments)}{9}{}%
+\contentsline {subsection}{\numberline {4.1}实验设置}{9}{}%
+\contentsline {subsection}{\numberline {4.2}学习效率验证 (MiniGrid-Empty-8x8)}{10}{}%
+\contentsline {subsection}{\numberline {4.3}机制解析与消融实验 (DoorKey-5x5)}{11}{}%
+\contentsline {subsection}{\numberline {4.4}大规模可扩展性 (Scalability Analysis on DoorKey-8x8)}{11}{}%
+\contentsline {subsection}{\numberline {4.5}与好奇心探索的对比 (Comparison with Curiosity-driven Exploration)}{12}{}%
+\contentsline {section}{\numberline {5}结论 (Conclusion)}{13}{}%
+\contentsline {section}{\numberline {A}超参数设置 (Hyperparameter Settings)}{14}{}%

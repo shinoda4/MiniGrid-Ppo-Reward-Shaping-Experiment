@@ -1,0 +1,63 @@
+\relax 
+\@writefile{toc}{\contentsline {section}{\numberline {1}引言 (Introduction)}{2}{}\protected@file@percent }
+\newlabel{sec:intro}{{1}{2}{}{section.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Overcoming Deceptive Rewards in Long-Horizon Sequential Tasks via Hierarchical Potential-Based Reward Shaping (HPBRS).}}{3}{}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:hpbrsdoorkeycomparison}{{1}{3}{}{figure.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}相关工作 (Related Work)}{4}{}\protected@file@percent }
+\newlabel{sec:related}{{2}{4}{}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}稀疏奖励与内在动机}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Contrast between Syntactic Novelty-Driven Exploration (RND) and Semantic Task Structure Guidance in a Large ($8 \times 8$) Sparse Reward Grid.}}{4}{}\protected@file@percent }
+\newlabel{fig:syntacticvssemanticguidance}{{2}{4}{}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}奖励塑形与势能函数}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Impact of Potential Function Design on Local Optima in Obstacle Environments.}}{5}{}\protected@file@percent }
+\newlabel{fig:pbrslocaloptimatrap}{{3}{5}{}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}分层强化学习 (HRL)}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}方法论 (METHODOLOGY)}{5}{}\protected@file@percent }
+\newlabel{sec:method}{{3}{5}{}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Preliminaries (预备知识)}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}马尔可夫决策过程 (MDP)}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2}基于势能的奖励塑形 (PBRS)}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}简单塑形的局限性 (The Limitation of Simple Shaping)}{6}{}\protected@file@percent }
+\newlabel{subsec:limitation}{{3.2}{6}{}{subsection.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {简单势能函数 $\Phi _S(s)$ 的验证。} 黄色实线（代码计算值）与灰色虚线（理论归一化距离）完全重合。关键在于，当智能体拿到钥匙时（"Has Key" 脉冲处），势能值没有任何跳变，证实了简单距离塑形无法对子目标完成提供正向反馈。}}{6}{}\protected@file@percent }
+\newlabel{fig:verificationsimpleshaping}{{4}{6}{}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Hierarchical Potential-Based Reward Shaping (分层势能奖励塑形)}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}任务分解与阶段定义}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Sequential Task Decomposition in DoorKey Environment.}}{7}{}\protected@file@percent }
+\newlabel{fig:hpbrsstagedecomposition}{{5}{7}{}{figure.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}分层势能函数构建}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The Staircase Structure of Hierarchical Potential Function $\Phi _{H}(s)$.}}{8}{}\protected@file@percent }
+\newlabel{fig:potentialfunctionlandscape}{{6}{8}{}{figure.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3}机制分析}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces \textbf  {分层势能函数 $\Phi _H(s)$ 与塑形奖励 $F$ 的动态特性验证。} 上图显示势能值 $\Phi (s)$ 在子目标达成（拿钥匙、开门）时出现精确的阶跃；下图显示对应的塑形奖励 $F$ 在这些时刻产生尖锐的正向脉冲，提供了关键的强化信号。}}{9}{}\protected@file@percent }
+\newlabel{fig:verificationhierarchicalshaping}{{7}{9}{}{figure.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}实验 (Experiments)}{9}{}\protected@file@percent }
+\newlabel{sec:exp}{{4}{9}{}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}实验设置}{9}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces 不同方法在 DoorKey 环境下的性能量化对比。指标包括：最终任务成功率 (Success Rate @ 500k) 和 达到 90\% 成功率所需的步数 (Steps to 90\%)。}}{10}{}\protected@file@percent }
+\newlabel{tab:performance_summary}{{1}{10}{}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}学习效率验证 (MiniGrid-Empty-8x8)}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces \textbf  {Learning Efficiency on MiniGrid-Empty-8x8.} Our method accelerates convergence while maintaining policy invariance.}}{10}{}\protected@file@percent }
+\newlabel{fig:empty}{{8}{10}{}{figure.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}机制解析与消融实验 (DoorKey-5x5)}{11}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces \textbf  {Ablation Study on DoorKey-5x5.} Comparison showing our method outperforms simple shaping, which suffers from local optima (dip in performance).}}{11}{}\protected@file@percent }
+\newlabel{fig:ablation}{{9}{11}{}{figure.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}大规模可扩展性 (Scalability Analysis on DoorKey-8x8)}{11}{}\protected@file@percent }
+\newlabel{fig:killshot_reward}{{10a}{12}{}{subfigure.10.1}{}}
+\newlabel{sub@fig:killshot_reward}{{a}{12}{}{subfigure.10.1}{}}
+\newlabel{fig:killshot_success}{{10b}{12}{}{subfigure.10.2}{}}
+\newlabel{sub@fig:killshot_success}{{b}{12}{}{subfigure.10.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces \textbf  {Scalability Analysis on MiniGrid-DoorKey-8x8.} (a) Average Episodic Reward. (b) Task Success Rate. Our Hierarchical Potential Shaping (Red) achieves a 100\% success rate within 250k steps, whereas both the Baseline and Simple Shaping methods fail completely (0\% success rate) due to the sparsity of rewards and deceptive local optima in the larger state space.}}{12}{}\protected@file@percent }
+\newlabel{fig:successrate8x8}{{10}{12}{}{figure.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}与好奇心探索的对比 (Comparison with Curiosity-driven Exploration)}{12}{}\protected@file@percent }
+\bibstyle{IEEEtran}
+\bibdata{references}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces \textbf  {DoorKey-8x8 环境下与 RND 的成功率对比。} 我们的方法（红线）在 200k 步内达到 100\% 成功率，而 RND（绿线）与基线一样始终无法完成任务。这证明了在结构化任务中，语义引导（Semantic Guidance）优于语法新奇性（Syntactic Novelty）。}}{13}{}\protected@file@percent }
+\newlabel{fig:rnd_comparison}{{11}{13}{}{figure.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}结论 (Conclusion)}{13}{}\protected@file@percent }
+\newlabel{sec:conclusion}{{5}{13}{}{section.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}超参数设置 (Hyperparameter Settings)}{14}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces PPO 及环境超参数设置}}{14}{}\protected@file@percent }
+\newlabel{tab:hyperparams}{{2}{14}{}{table.2}{}}
+\gdef \@abspage@last{14}

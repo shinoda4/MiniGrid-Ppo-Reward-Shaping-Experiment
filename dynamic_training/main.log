@@ -1,9 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.28)  16 DEC 2025 13:12
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.28)  18 DEC 2025 01:13
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**/Users/carl/PycharmProjects/MiniGrid-Ppo-Reward-Shaping-Experiment/dynamic_training/main.tex
+(/Users/carl/PycharmProjects/MiniGrid-Ppo-Reward-Shaping-Experiment/dynamic_training/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -22,18 +23,14 @@ File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count266
@@ -48,12 +45,9 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen148
 \Gm@layoutvoffset=\dimen149
 \Gm@dimlist=\toks18
-)
-(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
-(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2025-01-18 L3 programming layer (loader) 
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
 \g__graphics_track_int=\count269
 \l__pdf_internal_box=\box52
@@ -61,12 +55,9 @@ File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
 \g__pdf_backend_link_int=\count271
 ))
 Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty
 Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
-y
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
 Package: xtemplate 2024-08-16 L3 Experimental prototype document functions
 )
 \l__xeCJK_tmp_int=\count272
@@ -129,15 +120,12 @@ LaTeX template Info: Declaring template type 'xeCJK/punctuation' taking 0
 \g__xeCJK_fam_allocation_int=\count282
 \l__xeCJK_verb_case_int=\count283
 \l__xeCJK_verb_exspace_skip=\skip57
- (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
-X
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_script_int=\count284
 \l__fontspec_language_int=\count285
 \l__fontspec_strnum_int=\count286
@@ -152,41 +140,30 @@ X
 \l__fontspec_tmpa_dim=\dimen177
 \l__fontspec_tmpb_dim=\dimen178
 \l__fontspec_tmpc_dim=\dimen179
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
 File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 106.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen180
 \Gin@req@width=\dimen181
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen182
 \captionmargin=\dimen183
@@ -205,8 +182,7 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count297
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count298
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count299
 \float@exts=\toks19
@@ -229,21 +205,17 @@ Package fontspec Info:
 Package fontspec Info: 
 (fontspec)             Font family 'FandolSong-Regular(0)' created for font
 (fontspec)             'FandolSong-Regular' with options
-(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolSong-Bold
-},ItalicFont={FandolKai-Regular}].
+(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolSong-Bold},ItalicFont={FandolKai-Regular}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolSong-Regular.otf]/OT:script=hani;language=dfl
-t;"
+(fontspec)             <->"[FandolSong-Regular.otf]/OT:script=hani;language=dflt;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->"[FandolSong-Bold.otf]/OT:script=hani;language=dflt;"
-
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[FandolKai-Regular.otf]/OT:script=hani;language=dflt
-;"
+(fontspec)             <->"[FandolKai-Regular.otf]/OT:script=hani;language=dflt;"
 
 (./main.aux)
 \openout1 = `main.aux'.
@@ -391,8 +363,7 @@ Package fontspec Info:
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolFang-Regular.otf]/OT:script=hani;language=dfl
-t;"
+(fontspec)             <->"[FandolFang-Regular.otf]/OT:script=hani;language=dflt;"
 
 
 
@@ -413,18 +384,18 @@ File: ../logs_paper_minigrid_doorkey_5x5_v0.png Graphic file (type bmp)
 <../logs_paper_minigrid_doorkey_5x5_v0.png>
 File: ../ablation_result.png Graphic file (type bmp)
 <../ablation_result.png>
+
+
+[5]
 File: ../ablation_result_optimized.png Graphic file (type bmp)
 <../ablation_result_optimized.png>
 
 
-[5]
+[6]
 File: ../logs_paper_minigrid_doorkey_5x5_v0.png Graphic file (type bmp)
 <../logs_paper_minigrid_doorkey_5x5_v0.png>
 File: ../success_rate_5x5.png Graphic file (type bmp)
 <../success_rate_5x5.png>
-
-
-[6]
 File: ../killshot_result_8x8.png Graphic file (type bmp)
 <../killshot_result_8x8.png>
 
@@ -432,16 +403,17 @@ File: ../killshot_result_8x8.png Graphic file (type bmp)
 [7]
 File: ../success_rate_8x8.png Graphic file (type bmp)
 <../success_rate_8x8.png>
+
+
+[8]
 File: ../verification_rnd.png Graphic file (type bmp)
 <../verification_rnd.png>
 
 
-[8]
+[9]
 File: ../comparison_rnd_success_8x8.png Graphic file (type bmp)
 <../comparison_rnd_success_8x8.png>
 
-
-[9]
 
 [10]
 
@@ -452,12 +424,12 @@ L3 programming layer <2022/08/05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7390 strings out of 473832
- 211606 string characters out of 5729480
- 632047 words of memory out of 5000000
+ 7391 strings out of 473832
+ 211856 string characters out of 5729480
+ 634047 words of memory out of 5000000
  30411 multiletter control sequences out of 15000+600000
  559563 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 74i,7n,92p,780b,503s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,7n,92p,864b,503s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (11 pages).
+Output written on main.xdv (11 pages, 183688 bytes).

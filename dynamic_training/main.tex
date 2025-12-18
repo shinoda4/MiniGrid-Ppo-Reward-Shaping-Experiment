@@ -17,6 +17,24 @@
 
 \section{Idea}
 
+如果你想把 通用性 (Generality)、效率 (Efficiency) 和 方法 (Method) 全都体现出来，我推荐这个组合：
+
+English:
+
+\strong{Accelerating Reinforcement Learning in Sequential Sparse-Reward Tasks via Hierarchical Potential-Based Reward Shaping}
+
+中文:
+
+\strong{基于分层势能奖励塑形的序列稀疏奖励任务强化学习加速方法}
+
+理由：
+
+Accelerating: 对应你的 Empty-8x8 和 DoorKey-5x5 实验（快）。
+
+Sequential Sparse-Reward: 定义了 DoorKey 这种必须按顺序互动的难题。
+
+Hierarchical Potential-Based: 明确了你的核心贡献。
+
 \strong{如何利用领域知识（分层势能）解决具有因果依赖关系的稀疏奖励问题}
 	
 	\begin{enumerate}
@@ -297,7 +315,7 @@ This result is critical. In the $5 \times 5$ scenario, Simple Shaping eventually
 	\label{fig:successrate8x8}
 \end{figure}
 
-The disparity in performance becomes even more pronounced when analyzing the Task Success Rate (Fig. Y, Right).
+The disparity in performance becomes even more pronounced when analyzing the Task Success Rate (Fig. \ref{fig:successrate8x8}, Right).
 
 \begin{enumerate}
 	\item Ours (Red): Our method demonstrates a robust learning capability, steadily increasing its success rate to 100\% and maintaining perfect performance. This indicates that the agent has reliably mastered the sequential dependency of the task.
